@@ -1,18 +1,23 @@
 .container {
   display: grid;
-  grid-template-areas:
-    'header header header header nav nav'
-    'main main main main main main'
-    'footer footer footer footer footer footer';
-    grid-gap: 10px;
-    padding: 10px;
+
+  grid-template-rows: 1fr 6fr 1fr;
+  grid-template-columns: 1fr;
+
+  width: 100vw;
+  height: 100vh;
 }
 
 .grid-item {
-  padding: 10px;
+
 }
 
-header { grid-area: header; }
-nav { grid-area: nav; }
-main { grid-area: main; }
-footer { grid-area: footer; }
+header {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

@@ -12,10 +12,22 @@
 
         <!-- Add your site or application content here -->
         <div class="container">
-          <header class="grid-item"><h1>Header</h1></header>
-          <nav class="grid-item"><h3>Nav</h3></nav>
-          <main class="grid-item"><h6>Main</h6></main>
-          <footer class="grid-item"><h5>Footer</h5></footer>
+          <header class="grid-item">
+            <figure class="grid-item" id="headerFigure">
+              <h1>Figure</h1>
+            </figure>
+            <nav class="grid-item">
+              <h1>Nav</h1>
+            </nav>
+          </header>
+          <main class="grid-item">
+            <h1>Main</h1>
+          </main>
+          <footer class="grid-item">
+            <h1>Footer</h1>
+            <h1>Footer</h1>
+            <h1>Footer</h1>
+          </footer>
         </div>
         <?php include 'php/body-scripts.php';?>
     </body>

@@ -1,5 +1,20 @@
+body {
+  background-color: black;
+  text-align: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+
+}
+
 header {
   background-color: blue;
+}
+
+header figure {
+  background-color: gold;
 }
 
 nav {
