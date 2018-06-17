@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-flow: column-wrap;
+  align-content: stretch;
+
+}
+
+header {
+  display: flex;
+  align-items: stretch;
+}
+
+header div {
+  flex-grow: 10;
+}
+
+header nav {
+  flex-grow: 2;
+}
+
+main {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+main div {
+
+}
+
+main section {
+
+}
+
+footer {
+  display: flex;
+  align-items: stretch;
+}
+
+footer > section {
+  flex-grow: 1;
+}

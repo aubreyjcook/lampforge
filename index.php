@@ -22,8 +22,10 @@
               </figcaption>
             </div>
             <nav class="grid-item">
-              <h1>Nav Header</h1>
-              <ul>
+              <div class="grid-item" id="nav-header">
+                <h1>Nav Header</h1>
+              </div>
+              <ul class="grid-item" id= "nav-list">
                 <li>
                   <a href="#">Link</a>
                 </li>

@@ -3,7 +3,7 @@
 <?php
   loadCSSFile('normalize');
   loadCSSFile('html5Boilerplate');
-  loadCSSFile('grid');
+  /*loadCSSFile('grid');*/
   loadCSSFile('flexbox');
   loadCSSFile('main');
 ?>
