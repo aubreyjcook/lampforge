@@ -1,5 +1,5 @@
 <header class="grid-item row">
-  <div class="grid-item col-lg-4 col-md-4 col-sm-4 col-xs-4">
+  <div class="grid-item col-xs-12 col-sm-4 col-md-4 col-lg-4  center-sm center-md center-lg center-xs center-xs center-sm center-md center-lg">
     <figure>
       <h1>Figure</h1>
     </figure>
@@ -7,20 +7,5 @@
       Lorem ipsum dolor sit amet.
     </figcaption>
   </div>
-  <nav class="grid-item col-lg-8 col-md-8 col-sm-8 col-xs-8">
-    <div class="grid-item" id="nav-header">
-      <h1>Nav Header</h1>
-    </div>
-    <ul class="grid-item" id= "nav-list">
-      <li>
-        <a href="#">Link</a>
-      </li>
-      <li>
-        <a href="#">Link</a>
-      </li>
-      <li>
-        <a href="#">Link</a>
-      </li>
-    </ul>
-  </nav>
+  <?php include 'nav.php';?>
 </header>
