@@ -34,4 +34,14 @@ function loadJSFile($fileName){
   }
 }
 
+/* this function takes two parameters and is used to load a Javascript file from a CDN, the first parameter is the raw CDN url, the second is the subresource integrity SHA hash*/
+function loadJSCDN($href, $sri=null){
+  if($sri != null){
+      echo '<script src="' . $href . '" integrity="' . $sri . '" crossorigin="anonymous"></script>';
+  } else {
+      echo '<script src="' . $href . '" crossorigin="anonymous"></script>';
+  }
+
+}
+
 ?>
