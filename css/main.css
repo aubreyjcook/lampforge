@@ -1,3 +1,5 @@
+/* Base Styling */
+
 * {
   box-sizing: border-box;
 }
@@ -5,48 +7,29 @@
 body {
   background-color: black;
   color: white;
-  text-align: center;
 
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-  border: 1em solid white;
-  padding: 1em;
-}
-
-header {
-
-}
-
-header figure {
-
-}
-
-header figcaption {
-
-}
+/* Responsive Nav Menu */
 
 nav {
-
+  text-transform: uppercase;
 }
 
-nav ul {
-
+nav li {
+  display: inline;
+  padding-right: 20px;
+  list-style: none;
 }
 
-main {
-
+nav a {
+  text-decoration: none;
+  color: #b8b8ff;
 }
 
-main section {
-
-}
-
-footer {
-
-}
-
-.grid-item {
-  border: 1px solid white;
+nav a:hover{
+  color: #ffffff;
+  border-bottom: 3px solid #d6d6d6;
+  padding-bottom: 3px;
 }

@@ -1,7 +1,4 @@
 <nav class="grid-item col-xs-12 col-sm-8 col-md-8 col-lg-8  end-sm end-md end-lg center-xs middle-xs middle-sm middle-md middle-lg">
-  <div class="grid-item" id="nav-header">
-    <h1>Nav Header</h1>
-  </div>
   <ul class="grid-item" id= "nav-list">
     <li>
       <a href="index.php">Home</a>
