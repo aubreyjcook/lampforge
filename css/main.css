@@ -11,6 +11,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* responsive styling */
+img {
+  width: 100%;
+  /*max-width: 400px;*/
+  height: auto;
+}
+
+
 /* Responsive Nav Menu */
 
 nav {

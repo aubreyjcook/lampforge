@@ -1,10 +1,10 @@
 <header class="grid-item row">
   <div class="grid-item col-xs-12 col-sm-4 col-md-4 col-lg-4  center-sm center-md center-lg center-xs center-xs center-sm center-md center-lg">
     <figure>
-      <h1>Figure</h1>
+      <img src="img/logo.jpg" alt="blue flower"></img>
     </figure>
     <figcaption>
-      Lorem ipsum dolor sit amet.
+    Welcome to LampForge
     </figcaption>
   </div>
   <?php include 'nav.php';?>
