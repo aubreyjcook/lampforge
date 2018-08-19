@@ -3,7 +3,7 @@
     <head>
         <?php include 'php/head-meta.php';?>
         <?php include 'php/conditionalPageLoading.php';?>
-        <?php include 'php/head-links.php';?>
+        <?php include 'php/headLoader.php';?>
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -27,6 +27,6 @@
           </main>
           <?php include 'php/footer.php';?>
         </div>
-        <?php include 'php/body-scripts.php';?>
+        <?php include 'php/footerLoader.php';?>
     </body>
 </html>
