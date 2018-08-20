@@ -7,5 +7,5 @@
     Welcome to LampForge
     </figcaption>
   </div>
-  <?php include 'nav.php';?>
+  <?php require 'nav.php';?>
 </header>

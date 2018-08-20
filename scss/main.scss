@@ -1,3 +1,6 @@
+@import 'config';
+@import 'responsive';
+
 /* Base Styling */
 
 * {
@@ -8,37 +11,4 @@ body {
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-
-/* responsive styling */
-
-img {
-    width: 100%;
-    /*max-width: 400px;*/
-    height: auto;
-}
-
-
-/* Responsive Nav Menu */
-
-nav {
-    text-transform: uppercase;
-}
-
-nav li {
-    display: inline;
-    padding-right: 20px;
-    list-style: none;
-}
-
-nav a {
-    text-decoration: none;
-    color: #b8b8ff;
-}
-
-nav a:hover {
-    color: #ffffff;
-    border-bottom: 3px solid #d6d6d6;
-    padding-bottom: 3px;
 }

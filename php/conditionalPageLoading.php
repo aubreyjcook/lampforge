@@ -35,8 +35,8 @@ function loadCSSCDN($href, $sri=null){
 
 /* this function combines the previous two functions in order to automatically check for the presence of a CSS file in a local directory, while using CDN source as a fallback in case the file is not present, this helps insure efficiency and reliable access to third party resources*/
 function loadCSS($fileName, $href, $sri=null){
-  if(loadCSSFile($fileName)){ return true; } else if(loadCSSCDN){ return true; } else { return false;}
-  
+  if(loadCSSFile($fileName)){ return true; } else if(loadCSSCDN($href, $sri)){ return true; } else { return false;}
+
 }
 
 
@@ -65,13 +65,13 @@ function loadJSCDN($href, $sri=null){
 
 /* this function combines the previous two functions in order to automatically check for the presence of a JS file in a local directory, while using CDN source as a fallback in case the file is not present, this helps insure efficiency and reliable access to third party resources*/
 function loadJS($fileName, $href, $sri=null){
-  if(loadJSFile($fileName)){ return true; } else if(loadJSCDN){ return true; } else { return false;}
+  if(loadJSFile($fileName)){ return true; } else if(loadJSCDN($href, $sri)){ return true; } else { return false;}
 }
 
 /*checks for an element in the page with a class name of the given parameter*/
 function checkForClassElement($class){
   // TODO: Fix this
-  
+
   $domdocument = new DOMDocument();
   $domdocument->loadHTMLFile("index.php");
   $a = new DOMXPath($domdocument);
